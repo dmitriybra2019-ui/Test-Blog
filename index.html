@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+
+<html lang="de" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ═══ SEO: PRIMARY META ═══ -->
+
+  <title>MarketMind – Marketing Blog für Unternehmer | Facebook Ads & B2B Strategie</title>
+  <meta name="description" content="Praxisnahe Marketing-Strategien für B2B & B2C Unternehmer. Facebook Ads, Lead Generation, Analytics und Automatisierung – erklärt von Dmitrii Lezhnev.">
+  <meta name="keywords" content="Marketing Blog, Facebook Ads, B2B Marketing, Lead Generation, ROAS Optimierung, Digital Marketing Deutschland, Meta Ads Strategie">
+  <meta name="author" content="Dmitrii Lezhnev">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="theme-color" content="#FF3D00">
+  <link rel="canonical" href="https://dmitrii-lezhnev.github.io/marketmind/">
+
+  <!-- ═══ SEO: HREFLANG (двуязычность) ═══ -->
+
+  <link rel="alternate" hreflang="de" href="https://dmitrii-lezhnev.github.io/marketmind/">
+  <link rel="alternate" hreflang="ru" href="https://dmitrii-lezhnev.github.io/marketmind/?lang=ru">
+  <link rel="alternate" hreflang="x-default" href="https://dmitrii-lezhnev.github.io/marketmind/">
+
+  <!-- ═══ SEO: OPEN GRAPH (Facebook, LinkedIn превью) ═══ -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dmitrii-lezhnev.github.io/marketmind/">
+  <meta property="og:title" content="MarketMind – Marketing Blog für Unternehmer">
+  <meta property="og:description" content="Praxisnahe Marketing-Strategien für B2B & B2C Unternehmer. Facebook Ads, Lead Generation, Analytics – erklärt von Dmitrii Lezhnev.">
+  <meta property="og:image" content="https://dmitrii-lezhnev.github.io/marketmind/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:site_name" content="MarketMind">
+
+  <!-- ═══ SEO: TWITTER CARD ═══ -->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MarketMind – Marketing Blog für Unternehmer">
+  <meta name="twitter:description" content="Praxisnahe Marketing-Strategien für B2B & B2C Unternehmer.">
+  <meta name="twitter:image" content="https://dmitrii-lezhnev.github.io/marketmind/og-image.jpg">
+
+  <!-- ═══ SEO: SCHEMA.ORG STRUCTURED DATA ═══ -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://dmitrii-lezhnev.github.io/marketmind/#website",
+        "url": "https://dmitrii-lezhnev.github.io/marketmind/",
+        "name": "MarketMind",
+        "description": "Marketing Blog für Unternehmer – Facebook Ads, B2B Strategie, Analytics",
+        "inLanguage": ["de", "ru"],
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://dmitrii-lezhnev.github.io/marketmind/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Blog",
+        "@id": "https://dmitrii-lezhnev.github.io/marketmind/#blog",
+        "url": "https://dmitrii-lezhnev.github.io/marketmind/",
+        "name": "MarketMind Blog",
+        "description": "Praxisnahe Marketing-Strategien für B2B & B2C Unternehmer",
+        "author": { "@id": "https://dmitrii-lezhnev.github.io/marketmind/#author" },
+        "inLanguage": ["de", "ru"]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dmitrii-lezhnev.github.io/marketmind/#author",
+        "name": "Dmitrii Lezhnev",
+        "url": "https://dmitrii-lezhnev.github.io/marketmind/",
+        "jobTitle": "Performance Marketing Experte",
+        "description": "Über 8 Jahre Erfahrung im digitalen Marketing – Facebook Ads, B2B Strategie, Analytics und Automatisierung.",
+        "knowsAbout": ["Facebook Ads", "B2B Marketing", "Lead Generation", "Google Analytics", "Marketing Automatisierung"],
+        "address": { "@type": "PostalAddress", "addressCountry": "DE" }
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Warum dein echter ROAS 3× höher ist als du denkst",
+        "description": "Facebook Ads erzeugt primäre Nachfrage – aber die Käufe erscheinen oft als Direct oder Undefined in Analytics. So misst du den echten Einfluss.",
+        "author": { "@id": "https://dmitrii-lezhnev.github.io/marketmind/#author" },
+        "datePublished": "2026-01-13",
+        "dateModified": "2026-01-13",
+        "url": "https://dmitrii-lezhnev.github.io/marketmind/blog/roas-facebook-ads/",
+        "keywords": ["ROAS", "Facebook Ads", "Attribution", "Analytics"],
+        "articleSection": "Facebook Ads",
+        "inLanguage": "de"
+      }
+    ]
+  }
+  </script>
+
+  <!-- ═══ FONTS ═══ -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --neon: #FF3D00;
+      --neon2: #FFD600;
+      --neon3: #00E5FF;
+      --dark: #0A0A0F;
+      --dark2: #111118;
+      --dark3: #1A1A24;
+      --text: #F0F0F5;
+      --muted: #888899;
+      --card: #13131C;
+      --border: rgba(255,255,255,0.07);
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'Manrope', sans-serif;
+      background: var(--dark);
+      color: var(--text);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* ── SKIP LINK (accessibility + SEO) ── */
+    .skip-link {
+      position: absolute; top: -40px; left: 0;
+      background: var(--neon); color: var(--dark);
+      padding: 8px 16px; font-weight: 700;
+      text-decoration: none; z-index: 10000;
+      transition: top 0.2s;
+    }
+    .skip-link:focus { top: 0; }
+
+    /* ── NOISE ── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none; z-index: 9990; opacity: 0.35;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 18px 60px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(10,10,15,0.88);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+    .logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 26px; letter-spacing: 3px;
+      color: var(--text); text-decoration: none;
+    }
+    .logo span { color: var(--neon); }
+    .nav-links { display: flex; gap: 36px; list-style: none; }
+    .nav-links a {
+      font-size: 12px; font-weight: 700;
+      text-decoration: none; color: var(--muted);
+      letter-spacing: 2px; text-transform: uppercase;
+      transition: color 0.2s; position: relative;
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: -4px; left: 0;
+      width: 0; height: 2px; background: var(--neon);
+      transition: width 0.3s;
+    }
+    .nav-links a:hover, .nav-links a:focus { color: var(--text); outline: none; }
+    .nav-links a:hover::after, .nav-links a:focus::after { width: 100%; }
+    .lang-switch { display: flex; gap: 6px; }
+    .lang-btn {
+      padding: 6px 14px; font-size: 12px; font-weight: 700;
+      letter-spacing: 1px; text-transform: uppercase;
+      border: 1px solid var(--border);
+      background: transparent; color: var(--muted);
+      cursor: pointer; border-radius: 2px; transition: all 0.2s;
+    }
+    .lang-btn.active, .lang-btn:hover {
+      background: var(--neon); color: var(--dark); border-color: var(--neon);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 120px 60px 80px;
+      position: relative; overflow: hidden;
+    }
+    .hero-bg { position: absolute; inset: 0; pointer-events: none; }
+    .blob {
+      position: absolute; border-radius: 50%;
+      filter: blur(80px); opacity: 0.13;
+    }
+    .blob1 { width: 600px; height: 600px; background: var(--neon); top: -200px; right: -100px; animation: f1 9s ease-in-out infinite; }
+    .blob2 { width: 400px; height: 400px; background: var(--neon3); bottom: -100px; left: 200px; animation: f2 11s ease-in-out infinite; }
+    .blob3 { width: 300px; height: 300px; background: var(--neon2); top: 40%; left: -100px; animation: f1 13s ease-in-out infinite reverse; }
+    @keyframes f1 { 0%,100%{transform:translate(0,0) scale(1)} 50%{transform:translate(30px,-40px) scale(1.05)} }
+    @keyframes f2 { 0%,100%{transform:translate(0,0) scale(1)} 50%{transform:translate(-20px,30px) scale(0.95)} }
+
+    .hero-tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px; color: var(--neon);
+      letter-spacing: 4px; text-transform: uppercase;
+      margin-bottom: 24px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .hero-tag::before { content: ''; width: 40px; height: 1px; background: var(--neon); }
+
+    /* H1 — главный SEO-заголовок */
+    h1.hero-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(56px, 9vw, 130px);
+      line-height: 0.92; letter-spacing: -1px;
+      margin-bottom: 28px; position: relative; z-index: 1;
+    }
+    h1.hero-title em {
+      font-style: normal;
+      -webkit-text-stroke: 2px var(--neon);
+      color: transparent;
+    }
+    h1.hero-title .outline {
+      -webkit-text-stroke: 1px rgba(255,255,255,0.18);
+      color: transparent;
+    }
+    .hero-desc {
+      font-size: 17px; color: var(--muted);
+      max-width: 520px; line-height: 1.75;
+      margin-bottom: 44px; position: relative; z-index: 1;
+    }
+    .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; position: relative; z-index: 1; }
+
+    .btn-primary {
+      display: inline-block; padding: 15px 34px;
+      background: var(--neon); color: var(--dark);
+      font-weight: 800; font-size: 13px;
+      letter-spacing: 2px; text-transform: uppercase;
+      text-decoration: none; border: none; cursor: pointer;
+      clip-path: polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px));
+      transition: transform 0.2s, opacity 0.2s; position: relative; overflow: hidden;
+    }
+    .btn-primary:hover, .btn-primary:focus { transform: translateY(-2px); opacity: 0.9; outline: none; }
+    .btn-secondary {
+      display: inline-block; padding: 15px 34px;
+      background: transparent; color: var(--text);
+      font-weight: 700; font-size: 13px;
+      letter-spacing: 2px; text-transform: uppercase;
+      text-decoration: none; border: 1px solid var(--border);
+      transition: border-color 0.2s; cursor: pointer;
+    }
+    .btn-secondary:hover, .btn-secondary:focus { border-color: var(--text); outline: none; }
+
+    .hero-stats {
+      display: flex; gap: 56px; margin-top: 72px;
+      border-top: 1px solid var(--border); padding-top: 36px;
+      position: relative; z-index: 1; flex-wrap: wrap;
+    }
+    .stat-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 44px; color: var(--neon); line-height: 1;
+    }
+    .stat-label { font-size: 11px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; margin-top: 4px; }
+
+    /* ── TICKER ── */
+    .ticker { background: var(--neon); padding: 13px 0; overflow: hidden; white-space: nowrap; }
+    .ticker-inner { display: inline-flex; animation: tick 28s linear infinite; }
+    .ticker span {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 17px; letter-spacing: 3px; color: var(--dark); padding: 0 28px;
+    }
+    .ticker span.dot { color: rgba(0,0,0,0.3); }
+    @keyframes tick { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+    /* ── SECTIONS ── */
+    section { padding: 96px 60px; }
+    .section-tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px; color: var(--neon);
+      letter-spacing: 4px; text-transform: uppercase; margin-bottom: 14px;
+    }
+    /* H2 секций */
+    h2.section-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(38px, 5.5vw, 76px);
+      line-height: 1; margin-bottom: 18px;
+    }
+    .section-sub {
+      font-size: 15px; color: var(--muted);
+      max-width: 460px; line-height: 1.7; margin-bottom: 56px;
+    }
+
+    /* ── BLOG GRID ── */
+    #blog { background: var(--dark2); }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 2px;
+    }
+    article.blog-card {
+      background: var(--card); padding: 38px;
+      position: relative; overflow: hidden;
+      cursor: pointer; transition: background 0.3s;
+      text-decoration: none; color: inherit;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      min-height: 300px;
+    }
+    article.blog-card:hover, article.blog-card:focus-within { background: var(--dark3); outline: none; }
+    article.blog-card.featured { grid-row: span 2; min-height: 580px; }
+    article.blog-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--neon), var(--neon2));
+      transform: scaleX(0); transform-origin: left; transition: transform 0.4s;
+    }
+    article.blog-card:hover::before { transform: scaleX(1); }
+
+    .card-cat {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px; letter-spacing: 3px;
+      text-transform: uppercase; color: var(--neon); margin-bottom: 14px;
+    }
+    /* H3 карточек блога */
+    h3.card-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 30px; line-height: 1.1; margin-bottom: 14px;
+      transition: color 0.2s;
+    }
+    article.blog-card.featured h3.card-title { font-size: 46px; }
+    article.blog-card:hover h3.card-title { color: var(--neon); }
+
+    .card-excerpt { font-size: 14px; color: var(--muted); line-height: 1.6; margin-bottom: 22px; }
+    .card-meta {
+      display: flex; align-items: center; gap: 14px;
+      font-size: 11px; color: var(--muted);
+      font-family: 'Space Mono', monospace;
+    }
+    .card-meta time { color: var(--neon3); }
+    .card-num {
+      position: absolute; top: 28px; right: 28px;
+      font-family: 'Bebas Neue', sans-serif; font-size: 72px; line-height: 1;
+      color: rgba(255,255,255,0.025); pointer-events: none; transition: color 0.3s;
+    }
+    article.blog-card:hover .card-num { color: rgba(255,61,0,0.05); }
+
+    /* ── TOPICS ── */
+    #topics { background: var(--dark2); }
+    .topics-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2px; }
+    .topic-card {
+      background: var(--card); padding: 44px 36px;
+      border-bottom: 3px solid transparent;
+      transition: border-color 0.3s, background 0.3s;
+    }
+    .topic-card:hover { background: var(--dark3); border-bottom-color: var(--neon); }
+    .topic-icon { font-size: 34px; margin-bottom: 18px; }
+    h3.topic-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 26px; margin-bottom: 10px;
+    }
+    .topic-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+    .topic-count {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px; color: var(--neon); margin-top: 18px; letter-spacing: 2px;
+    }
+
+    /* ── ABOUT ── */
+    #about { display: grid; grid-template-columns: 1fr 1fr; gap: 90px; align-items: center; }
+    .about-box {
+      background: var(--dark3); padding: 56px;
+      position: relative; border: 1px solid var(--border);
+    }
+    .about-box::before {
+      content: ''; position: absolute; top: -2px; left: 36px; right: 36px; height: 2px;
+      background: linear-gradient(90deg, var(--neon), var(--neon2), var(--neon3));
+    }
+    .about-accent {
+      position: absolute; bottom: -18px; right: -18px;
+      width: 110px; height: 110px; border: 1px solid var(--neon); opacity: 0.25;
+    }
+    .about-name {
+      font-family: 'Bebas Neue', sans-serif; font-size: 44px; margin-bottom: 6px;
+    }
+    .about-role {
+      font-family: 'Space Mono', monospace; font-size: 11px;
+      color: var(--neon); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 22px;
+    }
+    .about-bio { font-size: 14px; color: var(--muted); line-height: 1.8; }
+    .skills-list { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 22px; }
+    .skill-tag {
+      padding: 5px 13px; border: 1px solid var(--border);
+      font-size: 11px; color: var(--muted); letter-spacing: 1px; transition: all 0.2s;
+    }
+    .skill-tag:hover { border-color: var(--neon); color: var(--neon); }
+
+    /* ── NEWSLETTER ── */
+    #newsletter { background: var(--dark3); text-align: center; position: relative; overflow: hidden; }
+    #newsletter::before {
+      content: 'NEWSLETTER';
+      font-family: 'Bebas Neue', sans-serif; font-size: 260px; letter-spacing: -8px;
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+      color: rgba(255,255,255,0.018); pointer-events: none; white-space: nowrap;
+    }
+    .newsletter-form {
+      display: flex; gap: 0; max-width: 540px; margin: 0 auto; position: relative; z-index: 1;
+    }
+    .newsletter-form input {
+      flex: 1; padding: 17px 22px;
+      background: var(--dark2); color: var(--text);
+      border: 1px solid var(--border); border-right: none;
+      font-family: 'Manrope', sans-serif; font-size: 15px; outline: none;
+      transition: border-color 0.2s;
+    }
+    .newsletter-form input:focus { border-color: var(--neon); }
+    .newsletter-form input::placeholder { color: var(--muted); }
+    .newsletter-form button {
+      padding: 17px 30px; background: var(--neon); color: var(--dark);
+      border: none; font-weight: 800; font-size: 12px;
+      letter-spacing: 2px; text-transform: uppercase; cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .newsletter-form button:hover { opacity: 0.85; }
+
+    /* ── CONTACT ── */
+    #contact { display: grid; grid-template-columns: 1fr 1fr; gap: 90px; }
+    .contact-form { display: flex; flex-direction: column; gap: 14px; }
+    .form-group { display: flex; flex-direction: column; gap: 7px; }
+    .form-group label {
+      font-family: 'Space Mono', monospace; font-size: 10px;
+      color: var(--muted); letter-spacing: 2px; text-transform: uppercase;
+    }
+    .form-group input, .form-group textarea, .form-group select {
+      padding: 13px 17px; background: var(--dark3); color: var(--text);
+      border: 1px solid var(--border);
+      font-family: 'Manrope', sans-serif; font-size: 15px; outline: none; resize: none;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--neon); }
+    .form-group textarea { min-height: 130px; }
+    .form-group select option { background: var(--dark3); }
+    .contact-info { display: flex; flex-direction: column; gap: 36px; }
+    .ci-label {
+      font-family: 'Space Mono', monospace; font-size: 10px;
+      color: var(--muted); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 5px;
+    }
+    .ci-value { font-size: 17px; font-weight: 700; }
+    .ci-value a { color: var(--neon); text-decoration: none; transition: opacity 0.2s; }
+    .ci-value a:hover { opacity: 0.7; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--dark); padding: 36px 60px;
+      border-top: 1px solid var(--border);
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 16px;
+    }
+    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 3px; }
+    .footer-logo span { color: var(--neon); }
+    .footer-copy { font-size: 12px; color: var(--muted); font-family: 'Space Mono', monospace; }
+    .footer-links { display: flex; gap: 18px; }
+    .footer-links a {
+      font-size: 12px; color: var(--muted); text-decoration: none;
+      letter-spacing: 1px; transition: color 0.2s; font-family: 'Space Mono', monospace;
+    }
+    .footer-links a:hover { color: var(--neon); }
+
+    /* ── SCROLL DOTS ── */
+    .scroll-dots {
+      position: fixed; right: 28px; top: 50%; transform: translateY(-50%);
+      display: flex; flex-direction: column; gap: 9px; z-index: 100;
+    }
+    .sd {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--border); cursor: pointer; transition: all 0.3s;
+    }
+    .sd.active { background: var(--neon); transform: scale(1.6); }
+
+    /* ── LANG ── */
+    .de, .ru { display: none; }
+    .de.on, .ru.on { display: block; }
+    .dei, .rui { display: none; }
+    .dei.on, .rui.on { display: inline; }
+
+    /* ── REVEAL ── */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s, transform 0.7s; }
+    .reveal.in { opacity: 1; transform: none; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 960px) {
+      nav { padding: 14px 24px; }
+      .nav-links { display: none; }
+      .hero, section { padding: 80px 24px; }
+      h1.hero-title { font-size: 58px; }
+      .blog-grid { grid-template-columns: 1fr; }
+      article.blog-card.featured { min-height: 380px; }
+      #about, #contact { grid-template-columns: 1fr; gap: 40px; }
+      .topics-grid { grid-template-columns: 1fr 1fr; }
+      .hero-stats { gap: 28px; }
+      footer { flex-direction: column; text-align: center; }
+      .scroll-dots { display: none; }
+    }
+    @media (max-width: 540px) {
+      .topics-grid { grid-template-columns: 1fr; }
+      h1.hero-title { font-size: 46px; }
+    }
+  </style>
+
+</head>
+<body>
+
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <!-- SCROLL DOTS -->
+
+  <nav class="scroll-dots" aria-label="Seitennavigation">
+    <div class="sd active" data-s="hero" role="button" tabindex="0" aria-label="Hero"></div>
+    <div class="sd" data-s="blog" role="button" tabindex="0" aria-label="Blog"></div>
+    <div class="sd" data-s="topics" role="button" tabindex="0" aria-label="Themen"></div>
+    <div class="sd" data-s="about" role="button" tabindex="0" aria-label="Über mich"></div>
+    <div class="sd" data-s="newsletter" role="button" tabindex="0" aria-label="Newsletter"></div>
+    <div class="sd" data-s="contact" role="button" tabindex="0" aria-label="Kontakt"></div>
+  </nav>
+
+  <!-- NAV -->
+
+  <header>
+    <nav aria-label="Hauptnavigation">
+      <a href="/" class="logo" aria-label="MarketMind Startseite">Market<span>Mind</span></a>
+      <ul class="nav-links" role="list">
+        <li><a href="#blog"><span class="dei on">Blog</span><span class="rui">Блог</span></a></li>
+        <li><a href="#topics"><span class="dei on">Themen</span><span class="rui">Темы</span></a></li>
+        <li><a href="#about"><span class="dei on">Über mich</span><span class="rui">Обо мне</span></a></li>
+        <li><a href="#contact"><span class="dei on">Kontakt</span><span class="rui">Контакт</span></a></li>
+      </ul>
+      <div class="lang-switch" role="group" aria-label="Sprachauswahl">
+        <button class="lang-btn active" onclick="setLang('de')" aria-pressed="true" lang="de">DE</button>
+        <button class="lang-btn" onclick="setLang('ru')" aria-pressed="false" lang="ru">RU</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+```
+<!-- HERO -->
+<section id="hero" aria-labelledby="hero-heading">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+  </div>
+  <p class="hero-tag" aria-hidden="true">
+    <span class="de on">Marketing-Wissen für Unternehmer</span>
+    <span class="ru">Маркетинг-знания для предпринимателей</span>
+  </p>
+  <h1 class="hero-title" id="hero-heading">
+    <span class="de on">MARKETING<br>DAS <em>WIRKT</em><br><span class="outline">WIRKLICH</span></span>
+    <span class="ru">МАРКЕТИНГ<br>КОТОРЫЙ <em>РАБОТАЕТ</em><br><span class="outline">РЕАЛЬНО</span></span>
+  </h1>
+  <p class="hero-desc">
+    <span class="de on">Strategisches Marketing-Wissen für B2B &amp; B2C Unternehmer. Keine Theorie — nur bewährte Methoden, die echte Ergebnisse liefern.</span>
+    <span class="ru">Стратегические знания по маркетингу для B2B и B2C предпринимателей. Никакой теории — только проверенные методы с реальными результатами.</span>
+  </p>
+  <div class="hero-cta">
+    <a href="#blog" class="btn-primary"><span class="dei on">Artikel lesen</span><span class="rui">Читать статьи</span></a>
+    <a href="#newsletter" class="btn-secondary"><span class="dei on">Newsletter abonnieren</span><span class="rui">Подписаться</span></a>
+  </div>
+  <div class="hero-stats" aria-label="Statistiken">
+    <div><div class="stat-num">200+</div><div class="stat-label"><span class="dei on">Artikel</span><span class="rui">Статей</span></div></div>
+    <div><div class="stat-num">5K+</div><div class="stat-label"><span class="dei on">Leser</span><span class="rui">Читателей</span></div></div>
+    <div><div class="stat-num">8+</div><div class="stat-label"><span class="dei on">Jahre Erfahrung</span><span class="rui">Лет опыта</span></div></div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-inner">
+    <span>FB ADS</span><span class="dot">✦</span><span>META CAMPAIGNS</span><span class="dot">✦</span>
+    <span>B2B MARKETING</span><span class="dot">✦</span><span>LEAD GENERATION</span><span class="dot">✦</span>
+    <span>CONVERSION RATE</span><span class="dot">✦</span><span>ROAS OPTIMIERUNG</span><span class="dot">✦</span>
+    <span>CONTENT STRATEGIE</span><span class="dot">✦</span><span>DIGITAL MARKETING</span><span class="dot">✦</span>
+    <span>FB ADS</span><span class="dot">✦</span><span>META CAMPAIGNS</span><span class="dot">✦</span>
+    <span>B2B MARKETING</span><span class="dot">✦</span><span>LEAD GENERATION</span><span class="dot">✦</span>
+    <span>CONVERSION RATE</span><span class="dot">✦</span><span>ROAS OPTIMIERUNG</span><span class="dot">✦</span>
+    <span>CONTENT STRATEGIE</span><span class="dot">✦</span><span>DIGITAL MARKETING</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- BLOG -->
+<section id="blog" aria-labelledby="blog-heading">
+  <div class="reveal">
+    <p class="section-tag">— <span class="dei on">Neueste Artikel</span><span class="rui">Последние статьи</span></p>
+    <h2 class="section-title" id="blog-heading">BLOG</h2>
+    <p class="section-sub">
+      <span class="de on">Tiefgehende Analysen, Strategien und Taktiken — direkt aus der Praxis.</span>
+      <span class="ru">Глубокий анализ, стратегии и тактики — прямо из практики.</span>
+    </p>
+  </div>
+  <div class="blog-grid reveal" role="list">
+
+    <article class="blog-card featured" role="listitem" aria-labelledby="post1-title">
+      <div class="card-num" aria-hidden="true">01</div>
+      <p class="card-cat">Facebook Ads</p>
+      <h3 class="card-title" id="post1-title">
+        <span class="dei on">Warum dein echter ROAS 3× höher ist als du denkst</span>
+        <span class="rui">Почему реальный ROAS в 3× выше, чем вы думаете</span>
+      </h3>
+      <p class="card-excerpt">
+        <span class="de on">Facebook Ads erzeugt primäre Nachfrage — aber die Käufe erscheinen oft als "Direct" oder "Undefined" in Analytics. So misst du den echten Einfluss auf deinen Umsatz.</span>
+        <span class="ru">Facebook Ads создаёт первичный спрос — но покупки часто появляются как "Direct" или "Undefined" в аналитике. Вот как измерить реальное влияние на оборот.</span>
+      </p>
+      <div class="card-meta">
+        <span>Dmitrii Lezhnev</span>
+        <span aria-hidden="true">·</span>
+        <time datetime="2026-01-13">13.01.2026</time>
+        <span aria-hidden="true">·</span>
+        <span>8 Min.</span>
+      </div>
+    </article>
+
+    <article class="blog-card" role="listitem" aria-labelledby="post2-title">
+      <div class="card-num" aria-hidden="true">02</div>
+      <p class="card-cat">B2B Strategie</p>
+      <h3 class="card-title" id="post2-title">
+        <span class="dei on">Hook-Familien: Die 8 psychologischen Türen zu deiner Zielgruppe</span>
+        <span class="rui">8 семейств хуков: психологические входы к вашей аудитории</span>
+      </h3>
+      <div class="card-meta"><time datetime="2026-01-19">19.01.2026</time><span>·</span><span>5 Min.</span></div>
+    </article>
+
+    <article class="blog-card" role="listitem" aria-labelledby="post3-title">
+      <div class="card-num" aria-hidden="true">03</div>
+      <p class="card-cat">Lead Generation</p>
+      <h3 class="card-title" id="post3-title">
+        <span class="dei on">Meta Instant Forms: Qualität statt Quantität bei Leads</span>
+        <span class="rui">Meta Instant Forms: качество лидов важнее количества</span>
+      </h3>
+      <div class="card-meta"><time datetime="2026-03-27">27.03.2026</time><span>·</span><span>6 Min.</span></div>
+    </article>
+
+    <article class="blog-card" role="listitem" aria-labelledby="post4-title">
+      <div class="card-num" aria-hidden="true">04</div>
+      <p class="card-cat">Creatives</p>
+      <h3 class="card-title" id="post4-title">
+        <span class="dei on">Das universelle Creative-Skelett für jede Kampagne</span>
+        <span class="rui">Универсальный скелет креатива для любой кампании</span>
+      </h3>
+      <div class="card-meta"><time datetime="2026-01-14">14.01.2026</time><span>·</span><span>7 Min.</span></div>
+    </article>
+
+    <article class="blog-card" role="listitem" aria-labelledby="post5-title">
+      <div class="card-num" aria-hidden="true">05</div>
+      <p class="card-cat">Analytics</p>
+      <h3 class="card-title" id="post5-title">
+        <span class="dei on">DSGVO & Attribution: Was Google Analytics verschweigt</span>
+        <span class="rui">DSGVO и атрибуция: что скрывает аналитика</span>
+      </h3>
+      <div class="card-meta"><time datetime="2026-01-13">13.01.2026</time><span>·</span><span>5 Min.</span></div>
+    </article>
+
+  </div>
+</section>
+
+<!-- TOPICS -->
+<section id="topics" aria-labelledby="topics-heading">
+  <div class="reveal">
+    <p class="section-tag">— <span class="dei on">Themenbereiche</span><span class="rui">Темы</span></p>
+    <h2 class="section-title" id="topics-heading">
+      <span class="dei on">WISSENS-<br>BEREICHE</span>
+      <span class="rui">ОБЛАСТИ<br>ЗНАНИЙ</span>
+    </h2>
+  </div>
+  <div class="topics-grid reveal">
+    <div class="topic-card"><div class="topic-icon" aria-hidden="true">⚡</div><h3 class="topic-name">Facebook &amp; Meta Ads</h3><p class="topic-desc"><span class="de on">Kampagnenaufbau, Creatives, Targeting, ROAS-Optimierung und Budgetstrategien für Unternehmer.</span><span class="ru">Настройка кампаний, креативы, таргетинг, оптимизация ROAS и бюджетные стратегии.</span></p><p class="topic-count">12 <span class="dei on">Artikel</span><span class="rui">статей</span></p></div>
+    <div class="topic-card"><div class="topic-icon" aria-hidden="true">🎯</div><h3 class="topic-name">B2B Marketing</h3><p class="topic-desc"><span class="de on">Strategien für Unternehmenskunden, Account-Based Marketing und Vertriebsunterstützung.</span><span class="ru">Стратегии для корпоративных клиентов, Account-Based Marketing и поддержка продаж.</span></p><p class="topic-count">8 <span class="dei on">Artikel</span><span class="rui">статей</span></p></div>
+    <div class="topic-card"><div class="topic-icon" aria-hidden="true">📊</div><h3 class="topic-name">Analytics &amp; Daten</h3><p class="topic-desc"><span class="de on">Attribution, GA4, Tracking-Setups und datenbasierte Entscheidungen im Marketing.</span><span class="ru">Атрибуция, GA4, настройка трекинга и принятие решений на основе данных.</span></p><p class="topic-count">10 <span class="dei on">Artikel</span><span class="rui">статей</span></p></div>
+    <div class="topic-card"><div class="topic-icon" aria-hidden="true">✍️</div><h3 class="topic-name">Content &amp; Copywriting</h3><p class="topic-desc"><span class="de on">Werbetexte, Hook-Formeln, Video-Skripte und Content-Strategien für jede Plattform.</span><span class="ru">Рекламные тексты, формулы хуков, видеоскрипты и контент-стратегии для каждой платформы.</span></p><p class="topic-count">15 <span class="dei on">Artikel</span><span class="rui">статей</span></p></div>
+    <div class="topic-card"><div class="topic-icon" aria-hidden="true">🔄</div><h3 class="topic-name">Automatisierung</h3><p class="topic-desc"><span class="de on">n8n, Make.com, KI-Tools und Marketing-Automatisierung ohne Entwicklerteam.</span><span class="ru">n8n, Make.com, AI-инструменты и маркетинговая автоматизация без команды разработчиков.</span></p><p class="topic-count">7 <span class="dei on">Artikel</span><span class="rui">статей</span></p></div>
+    <div class="topic-card"><div class="topic-icon" aria-hidden="true">💡</div><h3 class="topic-name">Strategie &amp; Funnel</h3><p class="topic-desc"><span class="de on">Funnel-Aufbau, Conversion-Optimierung und ganzheitliche Marketingstrategien für Wachstum.</span><span class="ru">Построение воронок, оптимизация конверсии и комплексные маркетинговые стратегии для роста.</span></p><p class="topic-count">9 <span class="dei on">Artikel</span><span class="rui">статей</span></p></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="about-box reveal">
+    <h2 class="about-name">Dmitrii Lezhnev</h2>
+    <p class="about-role"><span class="dei on">Performance Marketing Experte</span><span class="rui">Эксперт по Performance Marketing</span></p>
+    <p class="about-bio">
+      <span class="de on">Seit über 8 Jahren im digitalen Marketing tätig — von Vertrieb und Kundenakquise bis hin zu komplexen Performance-Kampagnen für B2B &amp; B2C Unternehmen in Deutschland. Ich schreibe nur über das, was ich selbst getestet und bewiesen habe.</span>
+      <span class="ru">Более 8 лет в digital-маркетинге — от продаж до сложных performance-кампаний для B2B и B2C компаний в Германии. Пишу только о том, что сам проверил на практике.</span>
+    </p>
+    <div class="skills-list" aria-label="Fähigkeiten">
+      <span class="skill-tag">Meta Ads</span><span class="skill-tag">Google Ads</span>
+      <span class="skill-tag">GA4 Analytics</span><span class="skill-tag">n8n</span>
+      <span class="skill-tag">Funnel Design</span><span class="skill-tag">B2B Strategy</span>
+      <span class="skill-tag">Copywriting</span><span class="skill-tag">AI Tools</span>
+    </div>
+    <div class="about-accent" aria-hidden="true"></div>
+  </div>
+  <div class="reveal">
+    <p class="section-tag" id="about-heading">— <span class="dei on">Über mich</span><span class="rui">Обо мне</span></p>
+    <h2 class="section-title"><span class="dei on">WARUM<br>DIESES<br>BLOG?</span><span class="rui">ЗАЧЕМ<br>ЭТОТ<br>БЛОГ?</span></h2>
+    <p class="section-sub">
+      <span class="de on">Ich teile hier nur das, was ich selbst in der Praxis getestet und bewiesen habe. Kein generischer Content — nur echtes, anwendbares Wissen für Unternehmer, die im Marketing wirklich vorankommen wollen.</span>
+      <span class="ru">Я делюсь здесь только тем, что сам проверил на практике. Никакого общего контента — только реальные знания для предпринимателей.</span>
+    </p>
+    <a href="#contact" class="btn-primary"><span class="dei on">Zusammenarbeiten</span><span class="rui">Сотрудничество</span></a>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section id="newsletter" aria-labelledby="newsletter-heading">
+  <div class="reveal" style="position:relative;z-index:1">
+    <p class="section-tag" style="justify-content:center;text-align:center">— Newsletter</p>
+    <h2 class="section-title" id="newsletter-heading" style="text-align:center">
+      <span class="dei on">KEIN SPAM.<br>NUR WISSEN.</span>
+      <span class="rui">НЕТ СПАМУ.<br>ТОЛЬКО ЗНАНИЯ.</span>
+    </h2>
+    <p class="section-sub" style="text-align:center;margin:0 auto 36px">
+      <span class="de on">Wöchentlich die besten Marketing-Insights direkt in dein Postfach.</span>
+      <span class="ru">Лучшие маркетинговые инсайты еженедельно прямо в вашу почту.</span>
+    </p>
+    <form class="newsletter-form" action="#" method="post" aria-label="Newsletter Anmeldung">
+      <label for="nl-email" style="position:absolute;opacity:0;pointer-events:none">E-Mail Adresse</label>
+      <input type="email" id="nl-email" name="email" placeholder="ihre@email.com" required autocomplete="email">
+      <button type="submit"><span class="dei on">Abonnieren</span><span class="rui">Подписаться</span></button>
+    </form>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="reveal">
+    <p class="section-tag" id="contact-heading">— <span class="dei on">Kontakt</span><span class="rui">Контакт</span></p>
+    <h2 class="section-title"><span class="dei on">LASS UNS<br>REDEN</span><span class="rui">ДАВАЙТЕ<br>ПОГОВОРИМ</span></h2>
+    <div class="contact-info">
+      <div><p class="ci-label">Email</p><p class="ci-value"><a href="mailto:dmitriybra2019@gmail.com">dmitriybra2019@gmail.com</a></p></div>
+      <div><p class="ci-label"><span class="dei on">Beratung</span><span class="rui">Консультация</span></p><p class="ci-value"><span class="de on">Marketing-Strategie &amp; Performance Ads</span><span class="ru">Маркетинговая стратегия &amp; Performance Ads</span></p></div>
+      <div><p class="ci-label">Location</p><p class="ci-value">Deutschland 🇩🇪</p></div>
+    </div>
+  </div>
+  <div class="reveal">
+    <form class="contact-form" action="#" method="post" aria-labelledby="contact-heading">
+      <div class="form-group">
+        <label for="c-name"><span class="dei on">Name</span><span class="rui">Имя</span></label>
+        <input type="text" id="c-name" name="name" placeholder="Max Mustermann" required autocomplete="name">
+      </div>
+      <div class="form-group">
+        <label for="c-email">Email</label>
+        <input type="email" id="c-email" name="email" placeholder="max@firma.de" required autocomplete="email">
+      </div>
+      <div class="form-group">
+        <label for="c-topic"><span class="dei on">Thema</span><span class="rui">Тема</span></label>
+        <select id="c-topic" name="topic">
+          <option value="beratung">Marketing-Beratung</option>
+          <option value="facebook">Facebook Ads</option>
+          <option value="b2b">B2B Strategie</option>
+          <option value="guest">Gastbeitrag / Гостевая статья</option>
+          <option value="other">Sonstiges / Другое</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="c-msg"><span class="dei on">Nachricht</span><span class="rui">Сообщение</span></label>
+        <textarea id="c-msg" name="message" placeholder="..."></textarea>
+      </div>
+      <button type="submit" class="btn-primary">
+        <span class="dei on">Nachricht senden</span><span class="rui">Отправить</span>
+      </button>
+    </form>
+  </div>
+</section>
+```
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="footer-logo">Market<span>Mind</span></div>
+    <p class="footer-copy">© 2026 Dmitrii Lezhnev · <span class="dei on">Alle Rechte vorbehalten</span><span class="rui">Все права защищены</span></p>
+    <nav class="footer-links" aria-label="Social Links">
+      <a href="https://linkedin.com" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+      <a href="https://instagram.com" rel="noopener noreferrer" target="_blank">Instagram</a>
+      <a href="https://t.me" rel="noopener noreferrer" target="_blank">Telegram</a>
+    </nav>
+  </footer>
+
+  <script>
+    // ── LANGUAGE ──
+    const LANG_KEY = 'mm_lang';
+    function setLang(l) {
+      localStorage.setItem(LANG_KEY, l);
+      document.documentElement.lang = l;
+      document.querySelectorAll('.de,.ru').forEach(e => e.classList.remove('on'));
+      document.querySelectorAll('.dei,.rui').forEach(e => e.classList.remove('on'));
+      document.querySelectorAll('.' + l).forEach(e => e.classList.add('on'));
+      document.querySelectorAll('.' + l + 'i').forEach(e => e.classList.add('on'));
+      document.querySelectorAll('.lang-btn').forEach(b => {
+        b.classList.toggle('active', b.textContent.trim().toLowerCase() === l);
+        b.setAttribute('aria-pressed', b.textContent.trim().toLowerCase() === l);
+      });
+    }
+    // Init
+    const saved = localStorage.getItem(LANG_KEY) || (navigator.language.startsWith('ru') ? 'ru' : 'de');
+    setLang(saved);
+
+    // URL param ?lang=ru
+    const urlLang = new URLSearchParams(location.search).get('lang');
+    if (urlLang === 'ru' || urlLang === 'de') setLang(urlLang);
+
+    // ── SCROLL REVEAL ──
+    const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting) e.target.classList.add('in'); }), {threshold:0.1});
+    document.querySelectorAll('.reveal').forEach(r => obs.observe(r));
+
+    // ── SCROLL DOTS ──
+    const sections = ['hero','blog','topics','about','newsletter','contact'];
+    const dots = document.querySelectorAll('.sd');
+    dots.forEach((d,i) => {
+      d.addEventListener('click', () => document.getElementById(sections[i])?.scrollIntoView({behavior:'smooth'}));
+      d.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' ') document.getElementById(sections[i])?.scrollIntoView({behavior:'smooth'}); });
+    });
+    const secObs = new IntersectionObserver(es => es.forEach(e => {
+      if(e.isIntersecting) {
+        dots.forEach(d => d.classList.remove('active'));
+        const i = sections.indexOf(e.target.id);
+        if(i>=0) dots[i].classList.add('active');
+      }
+    }), {threshold:0.45});
+    sections.forEach(id => { const el=document.getElementById(id); if(el) secObs.observe(el); });
+  </script>
+
+</body>
+</html>
